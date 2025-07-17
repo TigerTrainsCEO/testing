@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        maven {
+            name = 'MavenCentral'
+            url = 'https://repo.maven.apache.org/maven2/'
+        }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'stunning'
